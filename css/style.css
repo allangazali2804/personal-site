@@ -59,9 +59,6 @@ p {
     margin-top: 8%;
 }
 
-.project-content > a:hover {
-    background-color: #CCEEBC;
-}
 
 .education-content {
     display: grid;
