@@ -102,7 +102,7 @@ button:hover {
 }
 
 
-@media (min-width: 601px) and (max-width: 800px) {
+@media (max-width: 800px) {
     .about-content {
         display: grid;
         grid-template-columns: 1fr;
@@ -125,6 +125,10 @@ button:hover {
         padding: 10%;
     }
 
+     .project-content img {
+        width: 100%;
+    }
+
    
  
     .education-content {
@@ -133,10 +137,4 @@ button:hover {
 
 }
 
-@media (max-width: 600px) {
-    
-     .project-content img {
-        width: 100%;
-    }
-}
     
