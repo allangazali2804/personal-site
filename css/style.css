@@ -59,10 +59,9 @@ p {
     margin-top: 8%;
 }
 
- .project-content img {
-     height: 100;
+.project-content img {
+    height: 100px;
 }
-    
 
 .education-content {
     display: grid;
@@ -125,16 +124,17 @@ button:hover {
         padding: 10%;
     }
 
-     .project-content img {
-        width: 100%;
-    }
 
-   
- 
     .education-content {
         display: grid;
         grid-template-columns: 1fr;
 
 }
+}
 
-    
+@media (max-width: 460px) {
+
+    .project-content img {
+        width: 100%;
+    }
+}
