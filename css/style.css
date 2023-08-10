@@ -1,0 +1,130 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #9AC5F4;
+}
+
+p {
+    color: gray;
+}
+
+.header {
+    background-color: transparent;
+    text-align: center;
+    font-size: 1rem;
+    margin: 0;
+    padding: 10%;
+}
+
+.header > a {
+    margin: 10px;
+}
+
+.header > h1 {
+    font-size: 3rem;
+}
+
+
+.about, .project, .education, .contact-me, .footer {
+    background-color: white;
+    margin: 5%;
+    padding: 5%;
+}
+
+
+.profile-img{
+    border-radius: 50%;
+}
+
+.about-text {
+    text-align: justify;
+}
+
+.about-text > a {
+    text-decoration: none;
+    color: mediumturquoise;
+}
+
+.about-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 8%;
+    margin-left: 3%;
+    width: 100%;
+}
+
+.project-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    margin-top: 8%;
+}
+
+.project-content > a:hover {
+    background-color: #CCEEBC;
+}
+
+.education-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+input, textarea {
+    font-family: 'Nunito', sans-serif;
+    width: 100%;
+    margin-bottom: 2%;
+    padding: 1%;
+    background-color: #A7ECEE;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #0E2954;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 5%;
+    padding: 1%;
+}
+
+button:hover {
+    background-color: ;
+}
+
+.footer {
+    text-align: center;
+    padding: 10%;
+}
+
+.footer > a {
+    margin: 3%;
+}
+
+
+@media (max-width: 700px) {
+    .about-content {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 2fr;
+}
+
+    .about-content > img {
+        text-align: center;
+    }
+
+    .project-content {
+        display: grid;
+        grid-template-columns: 1fr;
+}
+
+    .project-content > * {
+        background-color: #E8FFCE;
+        margin: 15%;
+        padding: 10%;
+    }
+
+    .education-content {
+        display: grid;
+        grid-template-columns: 1fr;
+
+}
