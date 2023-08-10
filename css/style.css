@@ -59,6 +59,10 @@ p {
     margin-top: 8%;
 }
 
+ .project-content img {
+     height: 100;
+}
+    
 
 .education-content {
     display: grid;
@@ -124,7 +128,8 @@ button:hover {
     .project-content img {
         width: 100%;
     }
-
+   
+ 
     .education-content {
         display: grid;
         grid-template-columns: 1fr;
