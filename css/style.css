@@ -121,6 +121,10 @@ button:hover {
         padding: 10%;
     }
 
+    .project-content img {
+        width: 100%;
+    }
+
     .education-content {
         display: grid;
         grid-template-columns: 1fr;
