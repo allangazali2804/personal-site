@@ -25,6 +25,8 @@ p {
 
 
 .about, .project, .education, .contact-me, .footer {
+    border-radius: 15px;
+    box-shadow: inset;
     background-color: white;
     margin: 5%;
     padding: 5%;
@@ -92,8 +94,9 @@ button:hover {
 }
 
 .footer {
+    background-color: transparent;
     text-align: center;
-    padding: 10%;
+    margin: 3%;
 }
 
 .footer > a {
@@ -105,11 +108,12 @@ button:hover {
     .about-content {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 2fr;
+        grid-template-rows: 1fr 0.8fr;
 }
 
     .about-content > img {
         text-align: center;
+        margin-bottom: 5%;
     }
 
     .project-content {
