@@ -70,6 +70,14 @@ p {
     grid-template-columns: 1fr 1fr;
 }
 
+.education-date {
+    background-color: #0C356A;
+    color: white;
+    text-align: center;
+    width: 140px;
+    border-radius: 15px;
+}
+
 
 input, textarea {
     font-family: 'Nunito', sans-serif;
