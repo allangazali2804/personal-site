@@ -41,7 +41,7 @@ p {
     text-align: justify;
 }
 
-.about-text > a {
+.outlink {
     text-decoration: none;
     color: mediumturquoise;
 }
@@ -69,6 +69,7 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
 
 input, textarea {
     font-family: 'Nunito', sans-serif;
