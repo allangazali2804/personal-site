@@ -61,6 +61,10 @@ p {
     margin-top: 8%;
 }
 
+.project-content > * {
+    margin-top: 15%;
+}
+
 .project-content img {
     height: 100px;
 }
